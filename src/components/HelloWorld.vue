@@ -43,7 +43,7 @@ export default {
       author: 'wly',
       message: '<span>文烈焰</span>',
       class1: false,
-      id: 1,
+      id: 2,
       ok: true,
       rain: 0,
       url: 'http://www.baidu.com',
