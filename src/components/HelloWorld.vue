@@ -21,7 +21,6 @@
     <pre><a v-bind:href="url">百度</a></pre>
     <!-- <pre><a :href="url">百度</a></pre> 缩写 -->
 
-
     <input v-model="inputTxt">
     <p>{{ inputTxt }}</p>
     <p>{{ num }}</p>
