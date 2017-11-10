@@ -31,7 +31,7 @@
     <button v-on:click="numAdd">+</button>
     
     <br/>{{ author | capitalize }}<br/>
-    <span v-show="ok">oo我出来了，因为OK===true</span>
+    <span v-show="ok">我出来了，因为OK===true</span>
     <br>
     <div id="run-box">
       <ul class="box">
@@ -40,10 +40,6 @@
         </li>
       </ul>
     </div>
-    <!-- <div class="pic">
-      <img class="img-size" src="../assets/5.png" alt="">
-    </div> -->
-
     <ul>
       <li v-for="value in object">
         {{ value }}
@@ -159,27 +155,6 @@ var runBox = function(a,b,t,d) {
  */
 window.onload = function(){
   runBox('box','pic',10,'L');
-  // lis[0].onmouseover = function(){
-  //   console.log(1);
-  // } 
-  // for(var i = 0 ; i < lis.length ; i ++ ){
-  //   lis[i].addEventListener("onmouseover",liseEven); 
-
-  //   function liseEven(i){
-  //     console.log(i);
-  //   }
-    // lis[i].onmouseover = function(){
-
-      // for(var j = 0 ; j < 12 ; j ++ ){
-      //   if( i === j ){
-      //     lis[j].onmouseover = function(){
-      //       console.log(j);
-      //     }
-      //   }
-      // }
-    // } 
-  // }
-  
 } 
 
 </script>
